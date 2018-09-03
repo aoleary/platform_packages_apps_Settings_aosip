@@ -244,4 +244,9 @@ public class Settings extends SettingsActivity {
     public static class GamingModeActivity extends SettingsActivity {}
     public static class OwlsNestSettingsActivity extends SettingsActivity {}
     public static class StartThemesActivity extends SettingsActivity {}
+
+    /**
+     * Weather activity
+     */
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 }

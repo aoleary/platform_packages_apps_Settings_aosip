@@ -163,6 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.aosip.owlsnest.fragments.system_misc.GamingMode;
 import com.aosip.owlsnest.OwlsNestSettings;
+import com.aosip.owlsnest.external.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -315,6 +316,7 @@ public class SettingsGateway {
             OwlsNestSettings.class.getName(),
             StartThemes.class.getName(),
             GamingMode.class.getName(),
+            OmniJawsSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -357,5 +359,6 @@ public class SettingsGateway {
             // AOSiP
             Settings.GamingModeActivity.class.getName(),
             Settings.OwlsNestSettingsActivity.class.getName(),
+            Settings.OmniJawsSettingsActivity.class.getName(),
     };
 }
