@@ -294,4 +294,14 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered (It is advisable to use a 4 digit PIN combination instead)</string>
+
+    <!-- Switch Styles -->
+    <string name="switch_style_title">Switch Style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Narrow</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">Retro</string>
 </resources>

@@ -185,6 +185,15 @@
                     android:targetPackage="com.android.customization"
                     android:targetClass="com.android.customization.picker.CustomizationPickerActivity" />
         </Preference>
+
+       <com.aosip.support.preference.SystemSettingListPreference
+            android:key="switch_style"
+            android:title="@string/switch_style_title"
+            android:dialogTitle="@string/switch_style_title"
+            android:entries="@array/switch_style_entries"
+            android:entryValues="@array/switch_style_values"
+            android:summary="%s"
+            android:defaultValue="0" />
     </PreferenceCategory>
 
 </PreferenceScreen>
