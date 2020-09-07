@@ -22,6 +22,20 @@
     android:title="@string/gesture_preference_title">
 
     <Preference
+        android:key="active_edge_category"
+        android:title="@string/active_edge_title"
+        android:summary="@string/active_edge_summary"
+        android:fragment="com.android.settings.gestures.ActiveEdge"
+        settings:controller="com.android.settings.gestures.ActiveEdgeController" />
+
+    <Preference
+        android:key="aware_settings"
+        android:title="@string/aware_settings_title"
+        android:summary="@string/aware_settings_summary"
+        android:fragment="com.google.android.settings.aware.AwareSettings"
+        settings:controller="com.android.settings.gestures.MotionSenseController" />
+
+    <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
         android:fragment="com.android.settings.gestures.AssistGestureSettings"
@@ -51,11 +65,11 @@
         android:fragment="com.android.settings.gestures.DoubleTwistGestureSettings"
         settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController" />
 
-    <Preference
+    <!--Preference
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/system_navigation_title"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
-        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
+        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" / --> 
 
     <Preference
         android:key="gesture_tap_screen_input_summary"
@@ -110,4 +124,10 @@
         android:title="@string/double_tap_to_sleep_title"
         android:fragment="com.android.settings.gestures.DoubleTapStatusBarSettings"
         settings:controller="com.android.settings.gestures.DoubleTapStatusBarPreferenceController" />
+
+    <Preference
+        android:key="statusbar_brightness_summary"
+        android:title="@string/status_bar_brightness_screen_title"
+        android:fragment="com.android.settings.gestures.StatusBarBrightnessSettings"
+        settings:controller="com.android.settings.gestures.StatusBarBrightnessPreferenceController" />
 </PreferenceScreen>
